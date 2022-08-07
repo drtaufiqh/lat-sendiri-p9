@@ -1,0 +1,12 @@
+/* 
+selector {
+    property: value;
+}
+
+selector (*) kasih eksekusi ke semua elemen */
+* {
+    background-color: green;
+}
+div *{
+    background-color: aqua;
+}
